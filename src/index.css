@@ -1,0 +1,39 @@
+body {
+  background-color: powderblue;
+}
+
+li {
+  margin-top: 8px;
+}
+
+li.post-title {
+  cursor: pointer;
+}
+
+li.post-title:hover {
+  opacity: 0.6;
+}
+
+div.pages {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.title {
+  color: blue;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.loading {
+  color: purple;
+  font-style: italic;
+}
+
+.success {
+  color: green;
+}
